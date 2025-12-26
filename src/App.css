@@ -54,3 +54,23 @@ hr
     display: flex;
     justify-content: space-evenly;
 }
+.teammember
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    text-align: center;
+    box-shadow: 2px 2px 10px gray;
+    padding:25px;
+}
+.membername
+{
+font-size:25px;
+color:orangered;
+}
+.designation
+{
+    font-size:15px;
+}
