@@ -13,6 +13,7 @@ export default function TeamMember(props) {
         <div className='membername'>{props.membername}</div>
         <div>{props.designation}</div>
         <div>{props.exp} years</div>
+        <input type='button' value="view" onClick={()=>props.wfun(props.membername)}/>
     </div>
   )
 }
