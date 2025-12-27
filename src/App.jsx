@@ -1,13 +1,13 @@
 import "./App.css"
-import Eg1Home from "./components/eg1/Eg1Home"
-import First from "./components/First"
-import PropsHome from "./components/propseg/PropsHome"
-import User from "./components/propsexplain/User"
+import Maplist from "./components/maplist/Maplist"
+import StudentList from "./components/maplist/StudentList"
+
 export default function App() {  
   return (
     <>
-<PropsHome></PropsHome>
-    {/* <Eg1Home></Eg1Home> */}
+    <Maplist></Maplist>
+    <hr />
+    <StudentList></StudentList>
  </>
   )
 }
