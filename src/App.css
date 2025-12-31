@@ -53,6 +53,7 @@ hr
 {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .teammember
 {
@@ -73,4 +74,12 @@ color:orangered;
 .designation
 {
     font-size:15px;
+}
+.w30
+{
+width: 30%;
+}
+.w25
+{
+width: 25%;
 }

@@ -1,0 +1,11 @@
+npm install react-router-dom
+
+in main.jsx 
+import { BrowserRouter } from 'react-router-dom'
+and wrap <App/> in <BrowserRouter>
+
+add Routes and Route in Add.jsx 
+create link usin Link tag
+usin g use Params for dynamic routing 
+
+https://soumyajit.vercel.app/
